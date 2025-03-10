@@ -11,7 +11,7 @@ class ComponentA extends React.Component{
 
     static getDerivedStateFromProps(){
         console.log("ComponentA getDerivedStateFromProp")
-        return null;
+        return null; 
     }
 
     componentDidMount(){
